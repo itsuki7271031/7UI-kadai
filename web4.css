@@ -1,0 +1,86 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+header h1 .highlight {
+  color: #32cd32;
+}
+
+header h2 {
+  font-size: 1.8em;
+  color: #32cd32;
+  margin-bottom: 2em;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.option {
+  text-align: center;
+}
+
+.option .icon {
+  margin-bottom: 15px;
+}
+
+.option .label {
+  font-size: 1.2em;
+  color: #32cd32;
+}
+
+.option .label .en {
+  font-weight: bold;
+}
+
+.option.weak .label {
+  color: #90ee90;
+}
+
+.option.normal .label {
+  color: #32cd32;
+}
+
+.option.strong .label {
+  color: #006400;
+}
+
+.option.weak .icon svg circle,
+.option.weak .icon svg path {
+  stroke: #90ee90;
+}
+
+.option.normal .icon svg circle,
+.option.normal .icon svg path {
+  stroke: #32cd32;
+}
+
+.option.strong .icon svg circle,
+.option.strong .icon svg path {
+  stroke: #006400;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+footer .footer-text {
+  font-size: 1.2em;
+  color: white;
+}
